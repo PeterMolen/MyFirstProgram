@@ -5,15 +5,15 @@ namespace MyFirstProgram
     {
         static void Main(string[] args)
         {
-            int i = 18; // skapat en variabel (i) som sparat siffran 18
+            int i = 18; // Created a variable (i) as i saved as #18
 
-            if (i > 10) //if sats: OM (i) är större än 10 så (se nedan)
+            if (i > 10) //if statement: IF (i) is bigger then 10, look below
             {
-                Console.WriteLine("Talet är stort!"); //  <<---- Svaret
+                Console.WriteLine("Talet är stort!"); //  <<---- Anwser
             }
-            else //annars får du svaret ( se nedan )
+            else //else (otherwise) you get the anwser (look below)
             {
-                Console.WriteLine("Oj, lågt tal!"); //<<---- Svaret
+                Console.WriteLine("Oj, lågt tal!"); //<<---- Anwser
             }
 
             Console.WriteLine("Vad heter du?");
@@ -23,7 +23,7 @@ namespace MyFirstProgram
 
 
         for(int y = 0; y < i; y += 1) /*for loop, 
-        den kör ifrån 0 till (i), alltså upp till 18*/
+        it runs from  0 to (i), i=18, so up to 18 */
         {
             Console.WriteLine(y);
         }
